@@ -34,8 +34,7 @@ a {
 }
 
 a:hover {
-  background: #a8e557;
-  transform: translateY(-1px);
+  background: #c8f981;
 }
 
 .start-test {
@@ -52,8 +51,7 @@ a:hover {
 }
 
 .start-test:hover {
-  background: #a8e557;
-  transform: translateY(-1px);
+  background: #c8f981;
 }
 
 .container {
