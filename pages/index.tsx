@@ -26,9 +26,6 @@ export default function Home() {
         <li>
           <Link href="/mount-wide-tree">Mount Wide Tree Tests</Link>
         </li>
-        <li>
-          <Link href="/full-render-manual-test">Full Render Manual Tests</Link>
-        </li>
       </ol>
     </div>
   );
