@@ -59,6 +59,17 @@ const TestAndRefresh = ({
   /** Stores individual results in an array until the test is done and we can crunch them */
   const iterationResults: Array<number> = [];
 
+  function handleProfilerData(
+    id: string,
+    phase: 'mount' | 'update' | 'nested-update',
+    actualDuration: number,
+    baseDuration: number,
+    startTime: number,
+    commitTime: number
+  ) {
+    iterationResults.push(actualDuration);
+  }
+
   useEffect(() => {
     if (iterationResults.length !== testInfo.N) {
       throw new Error(`Did not calculate N: ${testInfo.N} results (received ${iterationResults.length} results)`);
@@ -113,18 +124,6 @@ const TestAndRefresh = ({
       window.location.href = `?testId=${testInfo.testId}&runIndex=${runIndex + 1}`;
     }
   });
-
-  function handleProfilerData(
-    id: string, // the "id" prop of the Profiler tree that has just committed
-    phase: string, // either "mount" (if the tree just mounted) or "update" (if it re-rendered)
-    actualDuration: number, // time spent rendering the committed update
-    baseDuration: number, // estimated time to render the entire subtree without memoization
-    startTime: number, // when React began rendering this update
-    commitTime: number, // when React committed this update
-    interactions: Set<any> // the Set of interactions belonging to this update
-  ) {
-    iterationResults.push(actualDuration);
-  }
 
   /** An array with the size of N */
   const loops = [...Array(testInfo.N)];
