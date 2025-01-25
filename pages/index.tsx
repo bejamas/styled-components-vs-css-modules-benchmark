@@ -2,8 +2,15 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      <ul>
+    <div className="container">
+      <h1>Performance Tests</h1>
+      <ol>
+        <li>
+          <Link href="/initial-load">Initial Load Tests</Link>
+        </li>
+        <li>
+          <Link href="/hydration">Hydration Tests</Link>
+        </li>
         <li>
           <Link href="/change-css-prop">Change CSS Prop Tests</Link>
         </li>
@@ -22,7 +29,7 @@ export default function Home() {
         <li>
           <Link href="/full-render-manual-test">Full Render Manual Tests</Link>
         </li>
-      </ul>
+      </ol>
     </div>
   );
 }

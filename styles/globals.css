@@ -12,14 +12,31 @@ body {
   background: #f6f8fa;
 }
 
-ul {
-  list-style: none;
+h1 {
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+ol {
+  list-style-position: inside;
   padding: 0;
   margin: 0;
+  counter-reset: item;
 }
 
 li {
   margin: 12px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+li::before {
+  content: counter(item) ".";
+  counter-increment: item;
+  color: #666;
+  font-weight: 500;
+  min-width: 24px;
 }
 
 a {
@@ -35,6 +52,16 @@ a {
 
 a:hover {
   background: #c8f981;
+  transform: translateY(-1px);
+}
+
+.back-link {
+  margin-top: 32px;
+  background: #f0f0f0;
+}
+
+.back-link:hover {
+  background: #e0e0e0;
 }
 
 .start-test {
@@ -52,6 +79,7 @@ a:hover {
 
 .start-test:hover {
   background: #c8f981;
+  transform: translateY(-1px);
 }
 
 .container {
