@@ -173,7 +173,11 @@ export const TestRunner = ({
     };
     localStorage.setItem(newTestId, JSON.stringify(testInfo));
 
-    return <a href={`?testId=${newTestId}&runIndex=0`}>start test</a>;
+    return (
+      <a className="start-test" href={`?testId=${newTestId}&runIndex=0`}>
+        start test
+      </a>
+    );
   } else if (typeof testId === 'string') {
     // We are mid-test or finished with a test
     if (typeof finished !== 'undefined') {
