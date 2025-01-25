@@ -5,28 +5,22 @@ export default function Home() {
     <div>
       <ul>
         <li>
-          <Link href="/create-and-mount-button">Create and mount a new button</Link>
+          <Link href="/change-css-prop">Change CSS Prop Tests</Link>
         </li>
         <li>
-          <Link href="/change-a-variant">Change a variant on a mounted component</Link>
+          <Link href="/change-a-variant">Change Variant Tests</Link>
         </li>
         <li>
-          <Link href="/change-css-prop">Change a value inside a CSS prop</Link>
+          <Link href="/create-and-mount-button">Create and Mount Tests</Link>
         </li>
         <li>
-          <Link href="/create-theme">Create theme</Link>
+          <Link href="/mount-deep-tree">Mount Deep Tree Tests</Link>
         </li>
         <li>
-          <Link href="/full-render-manual-test">Full render - manual testing</Link>
+          <Link href="/mount-wide-tree">Mount Wide Tree Tests</Link>
         </li>
         <li>
-          <Link href="/sierpinski-triangle">Sierpinski Triangle</Link>
-        </li>
-        <li>
-          <Link href="/mount-deep-tree">Mount deep tree</Link>
-        </li>
-        <li>
-          <Link href="/mount-wide-tree">Mount wide tree</Link>
+          <Link href="/full-render-manual-test">Full Render Manual Tests</Link>
         </li>
       </ul>
     </div>

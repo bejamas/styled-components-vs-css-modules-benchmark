@@ -1,0 +1,30 @@
+.button {
+  appearance: none;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+}
+
+.variant-red {
+  background-color: red;
+}
+
+.variant-blue {
+  background-color: blue;
+}
+
+.size-1 {
+  font-size: 13px;
+  height: 25px;
+}
+
+.size-2 {
+  font-size: 15px;
+  height: 35px;
+} 

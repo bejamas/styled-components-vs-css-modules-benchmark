@@ -5,19 +5,10 @@ export default function Home() {
     <div>
       <ul>
         <li>
-          <Link href="full-render-manual-test/stitches-react-v025">Stitches React v0.2.5</Link>
+          <Link href="full-render-manual-test/styled-components">Styled Components</Link>
         </li>
         <li>
-          <Link href="full-render-manual-test/stitches-react-vc17">Stitches React v1.0.0-canary.17</Link>
-        </li>
-        <li>
-          <Link href="full-render-manual-test/stitches-react-alpha">Stitches React alpha</Link>
-        </li>
-        <li>
-          <Link href="full-render-manual-test/styled-components">Styled components</Link>
-        </li>
-        <li>
-          <Link href="full-render-manual-test/emotion">Emotion</Link>
+          <Link href="full-render-manual-test/css-modules">CSS Modules</Link>
         </li>
       </ul>
     </div>

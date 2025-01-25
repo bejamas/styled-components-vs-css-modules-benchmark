@@ -337,36 +337,6 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@radix-ui/colors@^0.1.6":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@radix-ui/colors/-/colors-0.1.7.tgz#055cdf104f92ae58a7d6a7f1c7327c635b90747f"
-  integrity sha512-E6+ZPQ+FFn1/NZ4c/KRvZTu9KjC/MXrbJNETYs1HKe96gyxQivPu65FkhOsRnPigvJ0YJ9ZxYGxayqDNmaC1cQ==
-
-"@stitches/core-v025@npm:@stitches/core@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@stitches/core/-/core-0.2.5.tgz#01576bccbb2f58116679f603ae44a22d3dff2e35"
-  integrity sha512-L84V+1M5fyq32vpp+kpmXuGecqlCQQiOkHoTG/v88UuuZ5LPqM+lRsy4G5f+KozL7jKOZV/D3ejI/CWXfmCJAQ==
-
-"@stitches/core-vc17@npm:@stitches/core@1.0.0-canary.17":
-  version "1.0.0-canary.17"
-  resolved "https://registry.yarnpkg.com/@stitches/core/-/core-1.0.0-canary.17.tgz#448a9418c6be0d210a26bec39cf3e8336ed29818"
-  integrity sha512-3xzlB6z+YFIrXTBsd6bCXMIJl1PHx0uaMRnHm4RZd5rpM97Pwh+JJJSPBGm0vNm7v/hXr6mjBMGjgJ4g6JQJzg==
-
-"@stitches/react-v025@npm:@stitches/react@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-0.2.5.tgz#ad15b4e59ac2a0679542ba002d41253244be7dab"
-  integrity sha512-RDVn89kW0R/M4q4TdYvsJ7nckFndzRWGGFJnEHbIH9flOpahtNdPsrxVSsZSjFpxeVqCoOxKujlQjiyRrec1VA==
-
-"@stitches/react-vc17@npm:@stitches/react@1.0.0-canary.17":
-  version "1.0.0-canary.17"
-  resolved "https://registry.yarnpkg.com/@stitches/react/-/react-1.0.0-canary.17.tgz#ad1a584065a7f50595cf0f729e427a4a77521818"
-  integrity sha512-It+FrJoCI+oxciIDsi65vpW7YH5lOg70ADAyYXBgyTNKwFA5jIUo0vprg00DSOHfxq5UyjleV3yGsaiCp2sblQ==
-
-"@stitches/stringify@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@stitches/stringify/-/stringify-0.2.5.tgz#f9c6a3e21c643413bcdd177d3e34fe90cd4c7f43"
-  integrity sha512-UBS2PxQnux5CC413SXNOr33qY0tGCuwc4rim2sFihY195Df+x5aV13bPFNS/bA3KkWwPE/4IKA1QUtoiqA1PVA==
-
 "@types/hoist-non-react-statics@*":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
@@ -1510,10 +1480,15 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nanoid@^3.1.22, nanoid@^3.1.23:
+nanoid@^3.1.22:
   version "3.1.23"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
+
+nanoid@^3.1.23:
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.8.tgz#b1be3030bee36aaff18bacb375e5cce521684baf"
+  integrity sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==
 
 native-url@0.3.4:
   version "0.3.4"

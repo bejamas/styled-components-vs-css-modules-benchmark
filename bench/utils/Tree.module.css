@@ -1,0 +1,36 @@
+.view {
+  align-items: stretch;
+  border-width: 0;
+  border-style: solid;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+}
+
+.box {
+  align-self: flex-start;
+  background-color: transparent;
+}
+
+.color-0 { background-color: #14171A; }
+.color-1 { background-color: #AAB8C2; }
+.color-2 { background-color: #E6ECF0; }
+.color-3 { background-color: #FFAD1F; }
+.color-4 { background-color: #F45D22; }
+.color-5 { background-color: #E0245E; }
+
+.layout-column { flex-direction: column; }
+.layout-row { flex-direction: row; }
+
+.outer { padding: 4px; }
+.fixed {
+  width: 6px;
+  height: 6px;
+} 

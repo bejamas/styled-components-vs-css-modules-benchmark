@@ -59,8 +59,8 @@ export const Test = ({ testIndex }: TestComponentProps) => {
   return <Tree breadth={2} depth={7} id={0} wrap={1} box={Box} />;
 };
 
-const StitchesTest = () => {
+const StyledTest = () => {
   return <TestRunner numberOfRuns={3} iterationN={50} TestComponent={Test} />;
 };
 
-export default StitchesTest;
+export default StyledTest;
