@@ -62,45 +62,7 @@ export default function Home() {
       </p>
 
       <section className="test-section">
-        <h2>1. Google PageSpeed Insights</h2>
-        <div className="pagespeed-container">
-          <div className="pagespeed-result">
-            <h3>CSS Modules</h3>
-            <img src="/css-mod.png" alt="CSS Modules PageSpeed Results" />
-            <a
-              href="https://css-modules-dummy-landing.netlify.app/"
-              className="test-site-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View CSS Modules site →
-            </a>
-          </div>
-          <div className="pagespeed-result">
-            <h3>Styled Components</h3>
-            <img src="/styled.png" alt="Styled Components PageSpeed Results" />
-            <a
-              href="https://styled-components-dummy-landing.netlify.app/"
-              className="test-site-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              View Styled Components site →
-            </a>
-          </div>
-        </div>
-        <p>
-          Real-world performance measured by{' '}
-          <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer" className="test-site-link">
-            Google PageSpeed Insights
-          </a>
-          . Shows the lowest scores out of 5 attempts for each styling approach. Both landing pages are identical in
-          structure and content, with one built using CSS Modules and the other using Styled Components.
-        </p>
-      </section>
-
-      <section className="test-section">
-        <h2>2. Initial Load Performance</h2>
+        <h2>1. Initial Load Performance</h2>
         <Link href="/initial-load" className="test-link">
           Run this test →
         </Link>
@@ -114,7 +76,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>3. Hydration Performance</h2>
+        <h2>2. Hydration Performance</h2>
         <Link href="/hydration" className="test-link">
           Run this test →
         </Link>
@@ -128,7 +90,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>4. Change CSS Prop Tests</h2>
+        <h2>3. Change CSS Prop Tests</h2>
         <Link href="/change-css-prop" className="test-link">
           Run this test →
         </Link>
@@ -142,7 +104,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>5. Change Variant Tests</h2>
+        <h2>4. Change Variant Tests</h2>
         <Link href="/change-a-variant" className="test-link">
           Run this test →
         </Link>
@@ -156,7 +118,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>6. Create and Mount Tests</h2>
+        <h2>5. Create and Mount Tests</h2>
         <Link href="/create-and-mount-button" className="test-link">
           Run this test →
         </Link>
@@ -170,7 +132,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>7. Mount Deep Tree Tests</h2>
+        <h2>6. Mount Deep Tree Tests</h2>
         <Link href="/mount-deep-tree" className="test-link">
           Run this test →
         </Link>
@@ -184,7 +146,7 @@ export default function Home() {
       </section>
 
       <section className="test-section">
-        <h2>8. Mount Wide Tree Tests</h2>
+        <h2>7. Mount Wide Tree Tests</h2>
         <Link href="/mount-wide-tree" className="test-link">
           Run this test →
         </Link>
