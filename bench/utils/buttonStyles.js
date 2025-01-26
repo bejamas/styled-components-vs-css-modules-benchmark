@@ -36,10 +36,6 @@ export const buttonStyles = {
   '&:focus': {
     boxShadow: 'inset 0 0 0 1px gray, 0 0 0 1px gray',
   },
-  '&[data-radix-popover-trigger][data-state="open"]': {
-    backgroundColor: 'gray',
-    boxShadow: 'inset 0 0 0 1px gray',
-  },
   borderRadius: '3px',
   height: '25px',
   paddingLeft: '10px',
@@ -81,10 +77,6 @@ export const buttonVariants = {
         '&:focus': {
           boxShadow: 'inset 0 0 0 1px black, 0 0 0 1px black',
         },
-        '&[data-radix-popover-trigger][data-state="open"]': {
-          backgroundColor: 'black',
-          boxShadow: 'inset 0 0 0 1px black',
-        },
       },
       red: {
         backgroundColor: 'red',
@@ -99,10 +91,6 @@ export const buttonVariants = {
         },
         '&:focus': {
           boxShadow: 'inset 0 0 0 1px black, 0 0 0 1px black',
-        },
-        '&[data-radix-popover-trigger][data-state="open"]': {
-          backgroundColor: 'black',
-          boxShadow: 'inset 0 0 0 1px black',
         },
       },
     },
